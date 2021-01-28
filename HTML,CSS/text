@@ -1,0 +1,89 @@
+padding:inside border
+margin:outside the border
+
+
+id:ID's are giving a name to an HTML element that is unique.
+    for id we will use #
+class:when not unique we will use class
+    for class we will use '.'
+
+Specificity in CSS:
+    inline(high prority)
+    id
+    class
+    type(least prority)
+
+
+    *it will not depend on order in which we write code.
+
+
+Various CSS selectors:
+    Multiple element selector
+    Descendent selector
+    Child selector
+    Adjacent sibling selector
+    Attribute selector
+    Pseudoclass selector
+
+Responsive design
+
+viewport
+
+Media Quries
+    @media(screen size){
+
+    }
+
+flexbox and grid layout:
+    if you are using flex-box 
+        display:flex
+        flex-wrap:wrap
+Bootstrap:
+    getbootstrap.com
+    Bootstrap divide into 12 grid   
+    container,row,columns
+
+CSS:Cascading Style Sheet
+SCSS: which is capable of creating a variables by default web browswers are unable to   
+      process the scss file for compiling scc file we need scss compiler in our computer
+      to compile scss file 
+      use command sass styles.scss:styles.css
+      *every time you change the contents of sass file you need to compile
+      we can use command 
+      sass --watch styles.scss:styles.css
+        this command will see changes madde in sass file it will automatically compile into css file
+    features of sass    
+        nesting 
+            div{
+                ------
+                p{
+                    -----
+                }
+                h1{
+                    ------
+                }
+            }
+        inherithance:
+
+
+        variables in sass starts with $
+        in sass '%' is generic which tells that something.
+         i will extend in future along with style which is present in generic message
+
+         example:
+            %message{
+                font-family:sans-serif;
+                font-size:18px;
+                font-weight:bold;
+                padding:20px;
+            }
+            .sucess{
+                @extend message;
+                background-color:green;
+            }
+
+            .danger{
+                @extend message;
+                background-color:red
+            }
+
