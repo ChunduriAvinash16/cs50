@@ -1,0 +1,39 @@
+git is a version control system
+
+
+branch
+
+mergeing
+
+reverting
+* -> github is a website which contains repositories.
+commits
+
+git commands
+1->git clone : take repository and download
+    git clone repository_name<url>
+    cd commands:Change directory
+2->git add : add to git 
+    git add <file_name>
+3->git commit : telling to git i would like to store the snapshot of the current state of the repository
+    git commit -m "message"
+    git comiit -am "message" both adding and commiting
+4->git push: pushing changes to github repository
+5->git pull : from github to local
+6->git log : 
+7->git reset : current state to previous state  
+    git reset --hard<commit>
+    git reset --hard origin/master 
+branching:
+    git branch: gives branch
+    git checkout -b name_of_new_branch
+    git merge branch_name
+Merge conflicts
+
+fork : making a copy of repository (own)
+
+github pages
+
+    
+
+
