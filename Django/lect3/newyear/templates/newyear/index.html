@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="refresh" content="1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{% static 'newyear/styles.css' %}">
-    <title>Document</title>
+    <title>time</title>
 </head>
 <body>
     {% if newyear %}
@@ -14,5 +15,7 @@
     {% else %}
         <h1>NO</h1>
     {% endif %}
+
+        <h1>{{time}}</h1>
 </body>
 </html>

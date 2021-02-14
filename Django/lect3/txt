@@ -1,0 +1,10 @@
+python manage.py startapp newyear
+    1)After Creating a App add appname to the INSTALLED_APPS in settings.py file
+    2)create urls.py in newapp which we created add urlpattrens and add path default path to it.
+    3)in main lect3 urls.py add path to your newapp urls.py file using include
+    4)then go to the views.py file add the http responses
+run command
+    python manage.py runserver
+
+
+
